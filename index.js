@@ -24,7 +24,7 @@ var Posts = mongoose.model('Posts', postSchema);
 
 fs.readdir(workingDir, function(err, files) {
     for (var index in files) {
-        emit('publish', files[index]);
+        // emit('publish', files[index]);
     }
 });
 
